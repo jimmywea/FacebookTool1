@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FacebookTool - Quét bài viết vi phạm</title>
+  <title>FacebookTool - Kiểm tra bài viết vi phạm</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>FacebookTool - Kiểm tra bài viết vi phạm</h1>
 
-  <!-- Input for Facebook link and scan button -->
-  <div>
+  <!-- Input Section -->
+  <div class="input-section">
     <input type="text" id="facebookLink" placeholder="Nhập link Facebook">
     <label for="startDate">Từ ngày:</label>
     <input type="date" id="startDate">
@@ -20,9 +20,9 @@
   </div>
 
   <!-- Results Section -->
-  <div id="results"></div>
+  <div id="results" class="results-section"></div>
 
-  <!-- Import JS script -->
+  <!-- Import JavaScript -->
   <script type="module" src="scan.js"></script>
 </body>
 </html>
