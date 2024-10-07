@@ -4,20 +4,44 @@ body {
   padding: 20px;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin: 10px;
-}
-
-#results {
-  margin-top: 20px;
-  font-size: 14px;
+h1 {
   color: #333;
 }
 
-input {
+.input-section {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.results-section {
+  margin-top: 20px;
+}
+
+.results-section table {
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.results-section th, .results-section td {
+  border: 1px solid #ddd;
   padding: 8px;
-  width: 200px;
-  margin: 5px;
+}
+
+.results-section th {
+  background-color: #f4f4f4;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
